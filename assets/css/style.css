@@ -529,7 +529,7 @@ h1 span:nth-child(15){
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
-  display: flex;
+  display: inline;
   padding: 10px 350px 11px 28px;
   border-radius: 50px;
   transition: 0.5s;
@@ -538,6 +538,26 @@ h1 span:nth-child(15){
   background: #47b2e4;
 }
 
+
+
+#hero .btn-dis {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline;
+  padding: 10px 180px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 20px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
+
+#hero .btn-dis:hover {
+  background: #209dd8;
+}
 
 #hero .btn-get-started:hover {
   background: #209dd8;
@@ -987,6 +1007,21 @@ section {
   font-size: 18px;
   display: block;
 }
+
+.pricing h5 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  display: inline;
+  letter-spacing: 1px;
+  padding: 10px 30px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
+
 
 .pricing ul {
   padding: 20px 0;

@@ -507,7 +507,6 @@ h1 span:nth-child(15){
 
 #hero .container {
   padding-top: 72px;
-
 }
 
 #hero h1 {
@@ -529,7 +528,7 @@ h1 span:nth-child(15){
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
-  display: inline;
+  display: block;
   padding: 10px 350px 11px 28px;
   border-radius: 50px;
   transition: 0.5s;
@@ -546,8 +545,8 @@ h1 span:nth-child(15){
   font-size: 16px;
   text-align: center;
   letter-spacing: 1px;
-  display: inline;
-  padding: 10px 180px 11px 28px;
+  display: block;
+  padding: 10px 150px 11px 28px;
   border-radius: 50px;
   transition: 0.5s;
   margin: 20px 0 0 0;
@@ -605,6 +604,14 @@ h1 span:nth-child(15){
   #hero .hero-img img {
     width: 50%;
   }
+  #hero .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  #hero .btn-dis {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px; 
+  }
 }
 
 @media (max-width: 768px) {
@@ -620,6 +627,14 @@ h1 span:nth-child(15){
   #hero .hero-img img {
     width: 70%;
   }
+    #hero .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  #hero .btn-dis {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px; 
+  }
 }
 
 @media (max-width: 575px) {
@@ -627,6 +642,10 @@ h1 span:nth-child(15){
     width: 80%;
   }
   #hero .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  #hero .btn-dis {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
   }
@@ -961,18 +980,18 @@ section {
 }
 
 
-
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
 .pricing {
-  padding-top: 75px;
+  padding-top: 200px;
 }
 
 
 .pricing .row {
   padding-top: 40px;
 }
+
 
 .pricing .box {
   padding: 60px 40px;
@@ -1486,4 +1505,8 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+.products {
+  display: inline;
 }
